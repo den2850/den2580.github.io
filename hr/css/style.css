@@ -139,6 +139,7 @@
 	padding-top: 70px;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .notifications-text {
 	padding-top: 20px;
@@ -149,7 +150,7 @@
 /**/
 .section-two {
 	position: relative;
-	height: 790px;
+	
 }
 .section-two:before {
 	content: '';
@@ -182,6 +183,7 @@
 	padding-top: 90px;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .rate-price__box {
 	background: #fafafa;
@@ -249,6 +251,7 @@
 .static-content__box {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	padding-top: 85px;
 	padding-bottom: 90px;
 	padding-left: 120px;
@@ -283,4 +286,35 @@
 	padding: 62px 0;
 	font-size: 14px;
 	line-height: 18px;
+}
+
+/*Adaptive*/
+@media (max-width: 1150px) {
+	
+}
+@media (max-width: 900px) {
+	.bg-header {
+		height: auto;
+	}
+	.header-top {
+		display: inline-block;
+	}
+	.header-block {
+		text-align: center;
+		padding: 50px 0;
+		display: block;
+	}
+	.header-content {
+		margin: 0 auto;
+		padding-top: 80px;
+
+	}
+	.contact {
+		text-align: center;
+	    padding-top: 30px;
+	}
+	.header-content__heading {
+		font-size: 30px;
+	}
+	
 }
